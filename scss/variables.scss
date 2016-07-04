@@ -1,0 +1,51 @@
+//Icomoon
+$icomoon-font-path: "../sfonts" !default;
+
+$icon-arrow-long-right: "\e902";
+$icon-light-bulb: "\e901";
+$icon-google: "\e900";
+$icon-search: "\f002";
+$icon-envelope-o: "\f003";
+$icon-star-o: "\f006";
+$icon-chevron-left: "\f053";
+$icon-chevron-right: "\f054";
+$icon-plus: "\f067";
+$icon-heart-o: "\f08a";
+$icon-twitter: "\f099";
+$icon-facebook: "\f09a";
+$icon-facebook-f: "\f09a";
+$icon-mobile: "\f10b";
+$icon-mobile-phone: "\f10b";
+$icon-circle-o: "\f10c";
+$icon-circle: "\f111";
+$icon-dribbble: "\f17d";
+$icon-behance: "\f1b4";
+$icon-pinterest-p: "\f231";
+
+// Colors
+$brand-color:            #00bc9c !default;
+$secondary-color:        #506a85 !default;
+$body-bg:                #f2f5f7 !default;
+$body-bg-secondary:      #fff !default;
+
+$color-1: #4668b3 !default;
+$color-2: #de5745 !default;
+$color-3: #2fbbed !default;
+$color-4: #d94348 !default;
+$color-5: #3079ff !default;
+$color-6: #eb6397 !default;
+
+//## Settings for some of the most global styles.
+$text-color:            #73879c !default;
+$link-color:            $text-color !default;
+$link-hover-color:      $brand-color;
+$link-decoration:       none;
+$link-hover-decoration: underline;
+
+//## Typography
+$font-family-base:        'Roboto', Arial, Helvetica, Tahoma, sans-serif !default;
+$font-size-base:          16px;
+$line-height-base:        1.5;
+$font-family-top:        'Roboto', Arial, Helvetica, Tahoma, sans-serif !default;
+$font-size-top:           26px;
+$line-height-top:         1.3;

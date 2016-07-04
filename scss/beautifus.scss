@@ -1,0 +1,14 @@
+.beautiful{
+    text-align: center;
+    .columns{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:767px){
+    .beautiful{
+        .columns{
+            text-align: center;
+        }
+    }
+}

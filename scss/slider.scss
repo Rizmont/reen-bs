@@ -1,0 +1,29 @@
+.slider{
+    height: auto;
+    .carousel-indicators li {
+        border: 1px solid transparent;
+        background: $secondary-color;
+    }
+    .carousel-indicators .active{
+        background: $brand-color;
+    }
+    .carousel-control.left,.carousel-control.right {
+        background-image: none;
+    }
+      .item{
+      padding: 200px 0;
+    }
+    .carousel-caption {
+        position: static;
+        left: 0%;
+        right: 0%;
+        bottom: 0;
+        z-index: 10;
+        padding-top: 0;
+        padding-bottom: 0;
+        color: none;
+        text-align: center;
+        text-shadow: 0;
+        font-size: 0;
+    }
+}

@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    color: $text-color;
+    background: $body-bg;
+}
+a {
+    color: $link-color;
+    text-decoration: $link-decoration;
+    &:hover {
+        color: $link-hover-color;
+        text-decoration: $link-hover-decoration;
+    }
+}
+
+.block{
+  &--sm{
+    padding: 10px 0;
+  }
+  &--md{
+    padding: 20px 0;
+  }
+  &--xxl{
+    padding :100px 0;
+  }
+}
+
+.text{
+  &--sm{
+    font-size: 12px;
+  }
+  &--md{
+    font-size: 15px;
+  }
+  &--md{
+    font-size: 22px;
+  }
+  &--lg{
+    font-size: 24px;
+  }
+  &--xxl{
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 1.1;
+  }
+}
+
+.text-left           { text-align: left; }
+.text-right          { text-align: right; }
+.text-center         { text-align: center; }
+.text-justify        { text-align: justify; }
+.text-nowrap         { white-space: nowrap; }
+.pull-left           { float: left; }
+.pull-right          { float: right; }
+.pull-null           { float: none; }
+.bold                { font-weight: bold; }
+.padding--null       { padding: 0; }
+
+.btn-brand {
+  @include button-variant(#fff, $brand-color, $brand-color);
+}
+
+.heading{
+  margin-bottom: 70px;
+  &__top{
+    font-size: 44px;
+    line-height: 1.2;
+    margin-bottom: 35px;
+  }
+}
